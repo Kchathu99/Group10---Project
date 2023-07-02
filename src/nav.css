@@ -1,0 +1,36 @@
+nav {
+    width: 100%;
+  }
+  
+  .navbar {
+    list-style-type: none;
+    background-color: #fff;
+    display: flex;
+    height: 65px;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navbar__item {
+    margin: 30px;
+    color: #0c0c0c;
+    font-size: larger;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar__item a {
+    text-decoration: none;
+    color: #080808;
+  }
+  .navbar__item a:hover{
+    color: hwb(202 13% 7%);
+  }
+.navbar__logo{
+  margin-top: 10px;
+  width: 30px;
+  height: 30px;
+}
+  

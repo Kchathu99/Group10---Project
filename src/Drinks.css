@@ -1,0 +1,8 @@
+
+.bodycontainerdrinks{   
+  display: grid;
+  height: 350px;
+  gap: 8px;
+  grid-auto-flow: column;
+  place-items: center;
+}

@@ -1,0 +1,48 @@
+.containerhome {
+    background-image: url('images/feast-canteen-hero-image-1920x851.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    color: #0c0c0c;
+    border: 2px solid black;
+  }
+  
+.text-box {
+    background-color: hwb(0 80% 10%);
+    border: 5px solid hsl(0, 0%, 3%);
+    border-radius: 50px;
+    padding: 5px;
+    width: 600px;
+    margin-top: 300px;
+    margin-bottom: 50px;
+  }
+  
+  .text-box__heading {
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  }
+  
+  .text-box__open {
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    
+  }
+  
+  .text-box__lunch{
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+  
+  }
+  .long-space {
+    display: inline-block;
+    width: 120px;
+  }
+  

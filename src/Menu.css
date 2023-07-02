@@ -1,0 +1,34 @@
+.vertical-tabs {
+    display: flex;
+  }
+  
+  .tab-menu {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tab-menu button {
+    background-color: #f1f1f1;
+    color: #555;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  
+  .tab-menu button.active {
+    background-color: #ccc;
+    color: #000;
+  }
+  
+.start{
+    margin-left: 100px;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.con{
+    margin-left: 150px;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
