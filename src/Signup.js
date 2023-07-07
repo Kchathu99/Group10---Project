@@ -1,18 +1,18 @@
 import React, { useState } from 'react';
 
-const Login = () => {
+const Signup = () => {
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Add your login logic here
-    // Example: Authenticate the admin using the provided email and password
+    // Add your signup logic here
+    // Example: Create a new admin account using the provided email and password
   };
 
   return (
     <div>
-      <h2>Admin Login</h2>
+      <h2>Admin Signup</h2>
       <form onSubmit={handleSubmit}>
         <label>
           Email:
@@ -32,10 +32,10 @@ const Login = () => {
           />
         </label>
         <br />
-        <button type="submit">Login</button>
+        <button type="submit">Signup</button>
       </form>
     </div>
   );
 };
 
-export default Login;
+export default Signup;

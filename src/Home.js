@@ -4,6 +4,11 @@ import './Home.css';
 const Home = () => {
   return (
     <div>
+      <h1>Welcome to the Canteen Management System!</h1>
+      <div>
+        <a href="/user">User</a>
+        <a href="/admin">Admin</a>
+      </div>
         <div className='containerhome'>
         <div className="text-box">
         <h3 className="text-box__heading">Food Available times...</h3>
@@ -13,7 +18,7 @@ const Home = () => {
       </div>
 
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;
