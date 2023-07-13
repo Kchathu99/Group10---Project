@@ -1,44 +1,81 @@
 import React, { useState } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import './Login.css';
 
-const Login = ({ onLogin }) => {
+
+const Login = () => {
+  const [name, setName] = useState('');
+  const [indexNumber, setIndexNumber] = useState('');
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
-  const navigate = useNavigate();
+  const [isSignUp, setIsSignUp] = useState(false);
 
-  const handleSignIn = () => {
-    // Add your sign-in logic here, e.g., calling an API to authenticate the user
-
-    // Assuming the sign-in is successful, call the onLogin callback passed from App.js
-    onLogin();
-
-    // Navigate to the user page
-    navigate('/user');
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    if (isSignUp) {
+      console.log('Signing up with name:', name, 'index number:', indexNumber, 'email:', email, 'and password:', password);
+      
+    } else {
+      console.log('Logging in with email:', email, 'and password:', password);
+     
+    }
+   
+    setName('');
+    setIndexNumber('');
+    setEmail('');
+    setPassword('');
   };
 
   return (
-    <div>
-      <h2>Log In</h2>
-      <form>
-        <input
-          type="email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
-          placeholder="Email"
-        />
-        <input
-          type="password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-          placeholder="Password"
-        />
-        <button type="button" onClick={handleSignIn}>
-          Sign In
-        </button>
-        <p>
-          Don't have an account? <Link to="/signup">Sign Up</Link>
-        </p>
+    <div className="container">
+      <h1>{isSignUp ? 'Sign Up' : 'Log In'}</h1>
+      <form onSubmit={handleSubmit}>
+        {isSignUp && (
+          <div className="form-group">
+            <label>Name:</label>
+            <input
+              type="text"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
+              required
+            />
+          </div>
+        )}
+        {isSignUp && (
+          <div className="form-group">
+            <label>Index Number:</label>
+            <input
+              type="text"
+              value={indexNumber}
+              onChange={(e) => setIndexNumber(e.target.value)}
+              required
+            />
+          </div>
+        )}
+        <div className="form-group">
+          <label>Email:</label>
+          <input
+            type="email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+          />
+        </div>
+        <div className="form-group">
+          <label>Password:</label>
+          <input
+            type="password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+            required
+          />
+        </div>
+        <button type="submit">{isSignUp ? 'Sign Up' : 'Log In'}</button>
       </form>
+      <p className='loginsignup' onClick={() => setIsSignUp(!isSignUp)}>
+        {isSignUp
+          ? 'Already have an account? Log in'
+          : "Don't have an account? Sign up"}
+      </p>
     </div>
   );
 };
