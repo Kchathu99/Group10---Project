@@ -12,7 +12,7 @@ const Signup = () => {
 
   return (
     <div>
-      <h2>Admin Signup</h2>
+      <h2>Signup</h2>
       <form onSubmit={handleSubmit}>
         <label>
           Email:
