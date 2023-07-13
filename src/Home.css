@@ -1,5 +1,5 @@
 .containerhome {
-    background-image: url('images/feast-canteen-hero-image-1920x851.jpg');
+    background-image: url('images/Photo-by-Tamara-Mekler.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -11,15 +11,21 @@
     color: #0c0c0c;
     border: 2px solid black;
   }
-  
+
+  .logo{
+    position: absolute;
+    margin-top: 50px;
+    width: 400px;
+
+  }
 .text-box {
     background-color: hwb(0 80% 10%);
     border: 5px solid hsl(0, 0%, 3%);
     border-radius: 50px;
     padding: 5px;
     width: 600px;
-    margin-top: 300px;
-    margin-bottom: 50px;
+    margin-top: 400px;
+    margin-bottom: 100px;
   }
   
   .text-box__heading {
