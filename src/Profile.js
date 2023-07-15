@@ -1,10 +1,22 @@
 import React from 'react';
+import './Propile.css';
 
 function Profile() {
   return (
-    <div>
-        Profile
+    <div className='cover-propile'>
+    
+        
+       
+       
+        
+       
+        
+        
+        
+            
+        
 
+    
     </div>
   );
 }

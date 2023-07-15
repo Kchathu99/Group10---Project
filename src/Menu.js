@@ -33,15 +33,50 @@ function Menu() {
       <div className="tab-content">
         {activeTab === 'breakfast' && (
           <div>
-            <h3 className='start'>Breakfast</h3>
-            <p className='con'>Content for Breakfast tab</p>
+            <h3 className='start'>Goda Canteen</h3>
+            <ul>
+              <li>Rice<span className="long-space"></span>Rs.100.00</li>
+              <li>Noodles</li>
+              <li>Paratha</li>
+              <li>Milk Rice</li>
+              <li>Bread</li>
+            </ul>
+            
+            
+              
+            
+
+            
+           
           </div>
         )}
         {activeTab === 'lunch' && (
           <div>
-            <h3 className='start'>Lunch</h3>
-            <p className='con'>Content for Lunch tab</p>
+            <h3 className='start'>Goda Canteen</h3>
+            <p className='con'>Rice & Curry</p>
+            <form>
+              <div class="dish-row">
+                  <input type="checkbox" id="chiken" name="dish" value="chiken"> </input>
+                  <label for="chiken">Chicken</label>
+                </div>
+
+                <div class="dish-row">
+                  <input type="checkbox" id="egg" name="dish" value="egg"></input>
+                  <label for="egg">egg</label>
+                </div>
+
+                <div class="dish-row">
+                  <input type="checkbox" id="fish" name="dish" value="fish"></input>
+                  <label for="fish">Fish</label>
+                </div>
+
+                <div class="dish-row">
+                  <input type="checkbox" id="sausage" name="dish" value="sausage"></input>
+                  <label for="sausage">Sausage</label>
+                </div>
+                </form>
           </div>
+          
         )}
         {activeTab === 'dinner' && (
           <div>

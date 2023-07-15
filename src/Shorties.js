@@ -4,8 +4,8 @@ import './Shorties.css';
 function Shorties() {
   return (
     <div>
-        <h2 className='headingtag'>"Quick Eats"</h2>
-        <h2 className='headingdrinks'>Shorties</h2>
+        
+        
 
         <div className='bodycontainershorties'>
 

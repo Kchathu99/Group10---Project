@@ -1,8 +1,12 @@
 
 .bodycontainerdrinks{   
   display: grid;
-  height: 350px;
+  height: 800px;
   gap: 8px;
   grid-auto-flow: column;
   place-items: center;
+  background-image: url('images/bg.png');
+  background-size: cover;
+  background-position: center;
+  
 }

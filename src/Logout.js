@@ -16,7 +16,7 @@ const Logout = () => {
   };
 
   return (
-    <div>
+    <div className='logoutcover-page'>
     <div className='containerlogout'>
       <h1 className='logout'>Logout</h1>
       <p className='sentence'>Are you sure you want to logout?</p>

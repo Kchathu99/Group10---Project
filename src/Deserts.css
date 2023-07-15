@@ -4,4 +4,8 @@
   gap: 8px;
   grid-auto-flow: column;
   place-items: center;
+  height: 100vh;
+  background-image: url(./images/bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }

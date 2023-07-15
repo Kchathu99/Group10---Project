@@ -4,8 +4,8 @@ import './Drinks.css';
 function Drinks() {
   return (
     <div>
-        <h2 className='headingtag'>"Quenching Zone"</h2>
-        <h2 className='headingdrinks'>Drinks</h2>
+        
+       
 
         <div className='bodycontainerdrinks'>
 

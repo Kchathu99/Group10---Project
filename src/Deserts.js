@@ -4,8 +4,7 @@ import './Deserts.css';
 function Deserts() {
   return (
     <div>
-        <h2 className='headingtag'>"Divine Treats"</h2>
-        <h2 className='headingdeserts'>Deserts</h2>
+        
 
         <div className='bodycontainerdeserts'>
 

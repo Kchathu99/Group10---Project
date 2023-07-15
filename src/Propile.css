@@ -1,0 +1,19 @@
+.cover-propile {
+    background-image: url('images/bg.png');
+    background-size: cover;
+    height: 100pxs;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+.text-boxpro{
+  background-color: white;
+    opacity: 90%;
+    border: 4px solid rgb(241, 79, 0);
+    border-radius: 30px;
+    padding: 2px;
+    width: 600px;
+    margin-top: 400px;
+    margin-bottom: 100px;
+}
+  

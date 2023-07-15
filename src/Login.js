@@ -26,6 +26,7 @@ const Login = () => {
   };
 
   return (
+    <div className='cover-page'>
     <div className="container">
       <h1>{isSignUp ? 'Sign Up' : 'Log In'}</h1>
       <form onSubmit={handleSubmit}>
@@ -76,6 +77,7 @@ const Login = () => {
           ? 'Already have an account? Log in'
           : "Don't have an account? Sign up"}
       </p>
+    </div>
     </div>
   );
 };
