@@ -1,4 +1,4 @@
-.bodycontainerdeserts{
+.bodycontainerreservation{
     display: grid;
   height: 350px;
   gap: 8px;
@@ -9,3 +9,36 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.ab{
+  align-items: center;
+  margin-bottom: 50vh;
+}
+
+.heading-reservation{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: -18%;
+  color: orangered;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 150%;
+}
+
+.text-box-reservation{
+  background-color: rgb(238, 242, 243);
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.buttonres{
+  background-color: #56942c;
+  margin-top:10px;
+  margin-left: 35%;
+}
+
+
+
+

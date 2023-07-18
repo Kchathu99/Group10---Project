@@ -7,7 +7,20 @@
   background-repeat: no-repeat;
   background-size: cover;
  
+ 
   
+}
+
+.heading-menu{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  margin-top: -18%;
+  color: orangered;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 150%;
 }
 
 .tab-menu {
@@ -24,27 +37,30 @@
   border: none;
   border-radius: 5px;
   margin-bottom: 10px;
-  margin-top: 10px;
+  margin-top: 0px;
   margin-left: -400px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  width:250px
 }
 
 .tab-menu button.active {
   background-color: #e6230e;
   color: #fff;
+  
 }
 
 .tab-content {
   border: 1px solid #ccc;
-  padding: 200px;
+  padding-left: 100px;
+  padding-bottom: 200px;
   border-radius: 20px;
   width: 200px;
-  height: 50px;
-  
+  height: 150px;
+  margin-top: -20px;
   background-color: #fff;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-  animation: slideIn 0.5s ease forwards;
+  animation: slideIn 0.6s ease forwards;
   opacity: 0;
   transform: translateY(50px);
 }
@@ -52,10 +68,19 @@
 .start {
   color: #333;
   margin-bottom: 10px;
+  
+}
+
+.breakfast-list{
+  margin-left: -130px;
 }
 
 .con {
   color: #666;
+}
+
+.dish-row{
+  margin-left: -75px
 }
 
 /* Animation */
@@ -71,4 +96,60 @@
 }
 .menuitems{
   display: flex;
+}
+.tab-content-1{
+  border: 1px solid #ccc;
+  padding-left: 100px;
+  padding-bottom: 200px;
+  border-radius: 20px;
+  width: 200px;
+  height: 150px;
+  margin-top: -320px;
+  margin-left: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.5s ease forwards;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+
+.tab-content-2 {
+  border: 1px solid #ccc;
+  padding-left: 100px;
+  padding-bottom: 200px;
+  border-radius: 20px;
+  width: 200px;
+  height: 150px;
+  margin-top: -300px;
+  margin-left: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.5s ease forwards;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.tab-content-3{
+border: 1px solid #ccc;
+  padding-left: 100px;
+  padding-bottom: 200px;
+  border-radius: 20px;
+  width: 200px;
+  height: 150px;
+  margin-top: -320px;
+  margin-left: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  animation: slideIn 0.5s ease forwards;
+  opacity: 0;
+  transform: translateY(50px);
+}
+
+.button2{
+  background-color: #56942c;
+  margin-top:10px;
+ 
+  width: 50%;
+  height: 5%;
 }

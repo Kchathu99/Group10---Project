@@ -26,7 +26,7 @@ const Home = () => {
         <div className="text-box">
         <h3 className="text-box__heading">Food Available times...</h3>
         <p className="text-box__open">Breakfast 6.30am to 10.30am. <span className="long-space"></span>Dinner 5.30pm to 10.30pm</p>
-        <p className="text-box__lunch">Lunch 10.45am to 4.30pm.<span className="long-space"></span>Shorties & Drinks 6.30am to 10.30pm</p>
+        <p className="text-box__lunch">Lunch 10.45am to 4.30pm.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Shorties & Drinks 6.30am to 10.30pm.</p>
         </div>
         </div>
       </div>
