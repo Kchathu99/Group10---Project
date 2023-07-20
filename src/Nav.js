@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './nav.css';
 import logoImage from './images/icon_2.png';
+import navlogo from './images/navlogo.png';
 
 
 const Nav = () => {
@@ -9,6 +10,7 @@ const Nav = () => {
     <div>
         <nav>
         <ul className="navbar">
+        <li className="navbar__item"><img src={navlogo} alt="logo" className="navlogo__logo" /></li>
             <li className="navbar__item"><Link to="/">Home</Link></li>
           <li className="navbar__item"><Link to="/menu">Menu</Link></li>
           <li className="navbar__item"><Link to="/drinks">Drinks</Link></li>

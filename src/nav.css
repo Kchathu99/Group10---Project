@@ -10,7 +10,7 @@ nav {
     display: flex;
     height: 65px;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     padding: 0;
     margin: 0;
   }
@@ -19,9 +19,11 @@ nav {
     right: 10px;
     margin: 30px;
     color: #0c0c0c;
-    font-size:20%;
+    font-size:medium;
     font-weight: bold;
     transition: color 0.3s ease;
+    margin-right: 100px;
+   
   }
   
   .navbar__item a {
@@ -33,7 +35,14 @@ nav {
   }
 .navbar__logo{
   margin-top: 10px;
-  width: 30px;
+  width: 40px;
   height: 30px;
+}
+
+.navlogo__logo{
+  width: 100px;
+  height: 50px;
+  margin-left: -150%;
+  align-items:center;
 }
   

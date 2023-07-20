@@ -42,7 +42,7 @@ function Profile() {
             <h2>Order History</h2>
           </div>
           <table className="order-table">
-  <tr>
+  <tr className="row1">
     <th>Food Name</th>
     <th>Price</th> 
     <th>Date</th>
