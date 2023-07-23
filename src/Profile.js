@@ -14,15 +14,12 @@ function Profile() {
           <br />
           <br />
 
-          <label for="first">First Name:</label>
+          <label for="name">Name:</label>
           <input type="text" id="name1" name="Textbox2" />
           <br />
           <br />
 
-          <label for="last">Last Name:</label>
-          <input type="text" id="name2" name="Textbox3" />
-          <br />
-          <br />
+          
 
           <label for="email">Email:</label>
           <input type="email" id="email" name="Textbox4" />
